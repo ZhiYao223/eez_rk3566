@@ -481,21 +481,10 @@
               "type": "tabset",
               "id": "RUNTIME-EDITORS",
               "weight": 1,
+              "selected": -1,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
-              "children": [
-                {
-                  "type": "tab",
-                  "id": "#e97b8fc9-5400-4059-b05d-36004b097d7f",
-                  "name": "Main_page",
-                  "component": "editor",
-                  "config": {
-                    "objectPath": "[test2.eez-project]:/userPages/0",
-                    "permanent": false
-                  },
-                  "icon": "svg:page"
-                }
-              ],
+              "children": [],
               "active": true
             },
             {

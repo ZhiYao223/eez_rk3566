@@ -7,9 +7,7 @@
 extern "C" {
 #endif
 
-extern void action_save_sample_setting(lv_event_t * e);
-extern void action_save_shift_setting(lv_event_t * e);
-extern void action_save_communicate_setting(lv_event_t * e);
+extern void action_save_setting(lv_event_t * e);
 extern void action_btn_motor_stop(lv_event_t * e);
 extern void action_btn_sample_motor_cw(lv_event_t * e);
 extern void action_btn_rotate_motor_ccw(lv_event_t * e);
