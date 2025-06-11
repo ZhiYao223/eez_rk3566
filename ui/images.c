@@ -2,7 +2,6 @@
 
 const ext_img_desc_t images[11] = {
     { "home", &img_home },
-    { "barrel", &img_barrel },
     { "setting7", &img_setting7 },
     { "backgraound1", &img_backgraound1 },
     { "backgraound", &img_backgraound },
@@ -12,4 +11,5 @@ const ext_img_desc_t images[11] = {
     { "warning_icon", &img_warning_icon },
     { "Barrel_Empty", &img_barrel_empty },
     { "Barrel_Full", &img_barrel_full },
+    { "background2", &img_background2 },
 };
