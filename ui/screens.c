@@ -1153,7 +1153,7 @@ void create_screen_shift_setting_page() {
                     lv_obj_set_pos(obj, 170, 91);
                     lv_obj_set_size(obj, 128, LV_SIZE_CONTENT);
                     lv_dropdown_set_options(obj, "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n20\n21\n22\n23\n24");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selected(obj, 0, LV_ANIM_OFF);
                 }
                 {
                     // input_start_time2
@@ -1162,7 +1162,7 @@ void create_screen_shift_setting_page() {
                     lv_obj_set_pos(obj, 170, 192);
                     lv_obj_set_size(obj, 128, LV_SIZE_CONTENT);
                     lv_dropdown_set_options(obj, "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n20\n21\n22\n23\n24");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selected(obj, 0, LV_ANIM_OFF);
                 }
                 {
                     // input_stop_time3
@@ -1171,7 +1171,7 @@ void create_screen_shift_setting_page() {
                     lv_obj_set_pos(obj, 396, 292);
                     lv_obj_set_size(obj, 128, LV_SIZE_CONTENT);
                     lv_dropdown_set_options(obj, "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n20\n21\n22\n23\n24");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selected(obj, 0, LV_ANIM_OFF);
                 }
                 {
                     // input_start_time3
@@ -1180,7 +1180,7 @@ void create_screen_shift_setting_page() {
                     lv_obj_set_pos(obj, 170, 292);
                     lv_obj_set_size(obj, 128, LV_SIZE_CONTENT);
                     lv_dropdown_set_options(obj, "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n20\n21\n22\n23\n24");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selected(obj, 0, LV_ANIM_OFF);
                 }
                 {
                     // input_stop_time2
@@ -1189,7 +1189,7 @@ void create_screen_shift_setting_page() {
                     lv_obj_set_pos(obj, 396, 192);
                     lv_obj_set_size(obj, 128, LV_SIZE_CONTENT);
                     lv_dropdown_set_options(obj, "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n20\n21\n22\n23\n24");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selected(obj, 0, LV_ANIM_OFF);
                 }
                 {
                     // input_stop_time1
@@ -1198,7 +1198,7 @@ void create_screen_shift_setting_page() {
                     lv_obj_set_pos(obj, 396, 91);
                     lv_obj_set_size(obj, 128, LV_SIZE_CONTENT);
                     lv_dropdown_set_options(obj, "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n20\n21\n22\n23\n24");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selected(obj, 0, LV_ANIM_OFF);
                 }
                 {
                     // input_auto_sample_time
@@ -1207,7 +1207,7 @@ void create_screen_shift_setting_page() {
                     lv_obj_set_pos(obj, 170, 375);
                     lv_obj_set_size(obj, 128, LV_SIZE_CONTENT);
                     lv_dropdown_set_options(obj, "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40");
-                    lv_dropdown_set_selected(obj, 0);
+                    lv_dropdown_set_selected(obj, 0, LV_ANIM_OFF);
                 }
             }
         }
