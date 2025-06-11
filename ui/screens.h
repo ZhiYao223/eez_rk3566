@@ -39,6 +39,8 @@ typedef struct _objects_t {
     lv_obj_t *motor_cw_seconds;
     lv_obj_t *motor_stop_seconds;
     lv_obj_t *btn_save_sample_setting;
+    lv_obj_t *btn_manual_take_ccw;
+    lv_obj_t *btn_manual_take_cw;
     lv_obj_t *btn_auto_take_cw;
     lv_obj_t *obj11;
     lv_obj_t *obj12;
@@ -94,24 +96,22 @@ typedef struct _objects_t {
     lv_obj_t *obj35;
     lv_obj_t *obj36;
     lv_obj_t *obj37;
-    lv_obj_t *obj38;
-    lv_obj_t *obj39;
     lv_obj_t *input_start_time1;
     lv_obj_t *input_start_time2;
     lv_obj_t *input_stop_time3;
     lv_obj_t *input_start_time3;
     lv_obj_t *input_stop_time2;
     lv_obj_t *input_stop_time1;
-    lv_obj_t *input_auto_sample_time;
+    lv_obj_t *input_sample_times3;
+    lv_obj_t *input_sample_times2;
+    lv_obj_t *input_sample_times1;
     lv_obj_t *keyboard_auto;
     lv_obj_t *title_4;
     lv_obj_t *button_left_auto;
     lv_obj_t *input_auto_ssampling_;
-    lv_obj_t *btn_manual_take_ccw;
-    lv_obj_t *btn_manual_take_cw;
-    lv_obj_t *obj40;
+    lv_obj_t *obj38;
     lv_obj_t *keyboard_sample;
-    lv_obj_t *obj41;
+    lv_obj_t *obj39;
     lv_obj_t *title_3;
     lv_obj_t *button_left_communication;
     lv_obj_t *input_main_communication;
@@ -121,7 +121,7 @@ typedef struct _objects_t {
     lv_obj_t *input_main_test;
     lv_obj_t *keyboard_test;
     lv_obj_t *title_5;
-    lv_obj_t *obj42;
+    lv_obj_t *obj40;
 } objects_t;
 
 extern objects_t objects;
