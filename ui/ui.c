@@ -1209,7 +1209,7 @@ native_var_t native_vars[] = {
 
 
 ActionExecFunc actions[] = {
-    action_save_setting,
+    action_save_setting_func,
     action_btn_motor_stop,
     action_btn_sample_motor_cw,
     action_btn_rotate_motor_ccw,
