@@ -2,7 +2,7 @@
   "navigation": {
     "selectedUserPageObject": "[rkui.eez-project]:/userPages/3",
     "selectedActionObject": "[rkui.eez-project]:/actions/0",
-    "selectedGlobalVariableObject": "[rkui.eez-project]:/variables/globalVariables/22",
+    "selectedGlobalVariableObject": "[rkui.eez-project]:/variables/globalVariables/0",
     "subnavigationSelectedItems": {
       "variables-tab/sub-navigation/selected-item": "Global"
     }
@@ -135,6 +135,7 @@
                   "type": "tabset",
                   "id": "#34e12789-ff57-48a6-8529-c41e95c7dba6",
                   "weight": 0.9972794624627727,
+                  "selected": 2,
                   "enableClose": false,
                   "children": [
                     {
@@ -1254,7 +1255,7 @@
           "x": -345,
           "y": -282
         },
-        "scale": 0.75
+        "scale": 0.5
       },
       "timeline": {
         "isEditorActive": false,
@@ -1276,10 +1277,10 @@
       },
       "transform": {
         "translate": {
-          "x": -400.16666666666663,
-          "y": -323.6458333333333
+          "x": -232.1666361490885,
+          "y": -243.64583333333331
         },
-        "scale": 0.75
+        "scale": 0.5
       },
       "timeline": {
         "isEditorActive": false,
@@ -1292,16 +1293,13 @@
       "selection": {
         "0": {
           "5": {
-            "3": {},
-            "4": {},
-            "5": {}
+            "3": {}
           },
           "6": {
             "$selected": true
           },
           "7": {
-            "0": {},
-            "1": {}
+            "0": {}
           }
         }
       },
@@ -1310,7 +1308,7 @@
           "x": -524,
           "y": -491.5
         },
-        "scale": 0.75
+        "scale": 0.5
       },
       "timeline": {
         "isEditorActive": false,
@@ -1333,8 +1331,8 @@
       },
       "transform": {
         "translate": {
-          "x": -329.3824061510626,
-          "y": -235.58033695160574
+          "x": -206.98244277215633,
+          "y": -231.58036746918387
         },
         "scale": 0.5
       },
@@ -1351,17 +1349,15 @@
           "4": {
             "6": {}
           },
-          "7": {
-            "$selected": true
-          }
+          "7": {}
         }
       },
       "transform": {
         "translate": {
-          "x": -455.58000000000004,
-          "y": -419.89
+          "x": -165.17997558593754,
+          "y": -265.4899755859375
         },
-        "scale": 0.9
+        "scale": 0.5
       },
       "timeline": {
         "isEditorActive": false,
@@ -1372,14 +1368,20 @@
     },
     "[rkui.eez-project]:/userPages/5[flow-state]": {
       "selection": {
-        "0": {}
+        "0": {
+          "3": {
+            "1": {
+              "$selected": true
+            }
+          }
+        }
       },
       "transform": {
         "translate": {
-          "x": -512,
-          "y": -384
+          "x": -330.3999938964844,
+          "y": -340
         },
-        "scale": 0.75
+        "scale": 0.5
       },
       "timeline": {
         "isEditorActive": false,
@@ -1399,6 +1401,26 @@
       }
     },
     "[rkui.eez-project]:/actions/1[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": 0,
+          "y": 0
+        },
+        "scale": 1
+      }
+    },
+    "[rkui.eez-project]:/actions/2[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": 0,
+          "y": 0
+        },
+        "scale": 1
+      }
+    },
+    "[rkui.eez-project]:/actions/3[flow-state]": {
       "selection": {},
       "transform": {
         "translate": {
