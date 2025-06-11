@@ -70,6 +70,12 @@ extern int32_t get_var_manual_take_time_cw();
 extern void set_var_manual_take_time_cw(int32_t value);
 extern int32_t get_var_manual_take_time_ccw();
 extern void set_var_manual_take_time_ccw(int32_t value);
+extern int32_t get_var_sample_times_1();
+extern void set_var_sample_times_1(int32_t value);
+extern int32_t get_var_sample_times_2();
+extern void set_var_sample_times_2(int32_t value);
+extern int32_t get_var_sample_times_3();
+extern void set_var_sample_times_3(int32_t value);
 
 
 #ifdef __cplusplus
