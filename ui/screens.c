@@ -71,7 +71,7 @@ static void event_handler_cb_shift_setting_page_btn_save_shift_setting(lv_event_
     }
     if (event == LV_EVENT_PRESSED) {
         e->user_data = (void *)0;
-        action_save_shift_setting(e);
+        action_save_setting_func(e);
     }
 }
 
@@ -386,7 +386,7 @@ static void event_handler_cb_sample_setting_page_btn_save_sample_setting(lv_even
     
     if (event == LV_EVENT_PRESSED) {
         e->user_data = (void *)0;
-        action_save_sample_setting(e);
+        action_save_setting_func(e);
     }
     if (event == LV_EVENT_PRESSED) {
         e->user_data = (void *)0;
@@ -587,7 +587,7 @@ static void event_handler_cb_communicate_setting_page_btn_save_communicate_setti
     
     if (event == LV_EVENT_PRESSED) {
         e->user_data = (void *)0;
-        action_save_communicate_setting(e);
+        action_save_setting_func(e);
     }
     if (event == LV_EVENT_PRESSED) {
         e->user_data = (void *)0;
@@ -775,6 +775,10 @@ static void event_handler_cb_motor_test_setting_page_btn_save_motor_test_setting
     if (event == LV_EVENT_PRESSED) {
         e->user_data = (void *)0;
         flowPropagateValueLVGLEvent(flowState, 27, 0, e);
+    }
+    if (event == LV_EVENT_PRESSED) {
+        e->user_data = (void *)0;
+        action_save_setting_func(e);
     }
 }
 

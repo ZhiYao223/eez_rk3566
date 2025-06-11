@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[rkui.eez-project]:/userPages/3",
+    "selectedUserPageObject": "[rkui.eez-project]:/userPages/1",
     "selectedActionObject": "[rkui.eez-project]:/actions/0",
     "selectedGlobalVariableObject": "[rkui.eez-project]:/variables/globalVariables/0",
     "subnavigationSelectedItems": {
@@ -129,7 +129,7 @@
             {
               "type": "row",
               "id": "#64e138fa-5bf8-4c93-b57a-4e2fb344b325",
-              "weight": 17.780450560655417,
+              "weight": 24.922980155743073,
               "children": [
                 {
                   "type": "tabset",
@@ -201,15 +201,14 @@
             {
               "type": "tabset",
               "id": "EDITORS",
-              "weight": 56.21310830172847,
-              "selected": 2,
+              "weight": 49.07057870664081,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
                 {
                   "type": "tab",
-                  "id": "#1a8fbb18-7b70-45bd-9f52-d37f019ad2bd",
-                  "name": "save_sample_setting",
+                  "id": "#14cbb3f0-8909-4daa-b6f4-cd6951bdf78c",
+                  "name": "save_setting_func",
                   "component": "editor",
                   "config": {
                     "objectPath": "[rkui.eez-project]:/actions/0",
@@ -232,10 +231,10 @@
                 {
                   "type": "tab",
                   "id": "#a9dd9c5f-de32-4a7a-98af-2c437a0b24fa",
-                  "name": "Communicate_setting_page",
+                  "name": "Shift_setting_page",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[rkui.eez-project]:/userPages/3",
+                    "objectPath": "[rkui.eez-project]:/userPages/1",
                     "permanent": false
                   },
                   "icon": "svg:page"
@@ -481,21 +480,10 @@
               "type": "tabset",
               "id": "RUNTIME-EDITORS",
               "weight": 1,
+              "selected": -1,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
-              "children": [
-                {
-                  "type": "tab",
-                  "id": "#e97b8fc9-5400-4059-b05d-36004b097d7f",
-                  "name": "Main_page",
-                  "component": "editor",
-                  "config": {
-                    "objectPath": "[test2.eez-project]:/userPages/0",
-                    "permanent": false
-                  },
-                  "icon": "svg:page"
-                }
-              ],
+              "children": [],
               "active": true
             },
             {
@@ -1267,9 +1255,8 @@
     "[rkui.eez-project]:/userPages/1[flow-state]": {
       "selection": {
         "0": {
-          "3": {
-            "$selected": true
-          },
+          "3": {},
+          "4": {},
           "5": {
             "10": {}
           }
@@ -1277,8 +1264,8 @@
       },
       "transform": {
         "translate": {
-          "x": -232.1666361490885,
-          "y": -243.64583333333331
+          "x": -228.1666361490885,
+          "y": -180.44582112630206
         },
         "scale": 0.5
       },
@@ -1295,9 +1282,7 @@
           "5": {
             "3": {}
           },
-          "6": {
-            "$selected": true
-          },
+          "6": {},
           "7": {
             "0": {}
           }
@@ -1305,8 +1290,8 @@
       },
       "transform": {
         "translate": {
-          "x": -524,
-          "y": -491.5
+          "x": -362.4000244140625,
+          "y": -191.39114730834956
         },
         "scale": 0.5
       },
@@ -1326,6 +1311,9 @@
           "4": {
             "3": {},
             "4": {}
+          },
+          "6": {
+            "$selected": true
           }
         }
       },
@@ -1354,7 +1342,7 @@
       },
       "transform": {
         "translate": {
-          "x": -165.17997558593754,
+          "x": -238.77995117187504,
           "y": -265.4899755859375
         },
         "scale": 0.5
@@ -1370,9 +1358,7 @@
       "selection": {
         "0": {
           "3": {
-            "1": {
-              "$selected": true
-            }
+            "1": {}
           }
         }
       },
@@ -1421,6 +1407,16 @@
       }
     },
     "[rkui.eez-project]:/actions/3[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": 0,
+          "y": 0
+        },
+        "scale": 1
+      }
+    },
+    "[rkui.eez-project]:/actions/11[flow-state]": {
       "selection": {},
       "transform": {
         "translate": {
