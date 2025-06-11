@@ -340,7 +340,6 @@ void action_manual_pour(lv_event_t * e)
     }
 }
 
-
 // 自动取灰
 void thread_auto_take(){
     printf("sample thread started\n");
@@ -433,8 +432,7 @@ void thread_auto_take(){
 }
 
 /*
-* 用作自动取灰控制按钮
-*/
+//用作自动取灰控制按钮
 static bool bInAutoTake = false; //静态变量，记录是否处于自动取灰状态，初始为 false（未启动）。
 /*
 void action_auto_collect(lv_event_t * e)
