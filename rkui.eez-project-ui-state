@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[rkui.eez-project]:/userPages/1",
+    "selectedUserPageObject": "[rkui.eez-project]:/userPages/0",
     "selectedActionObject": "[rkui.eez-project]:/actions/0",
     "selectedGlobalVariableObject": "[rkui.eez-project]:/variables/globalVariables/0",
     "subnavigationSelectedItems": {
@@ -135,7 +135,6 @@
                   "type": "tabset",
                   "id": "#34e12789-ff57-48a6-8529-c41e95c7dba6",
                   "weight": 0.9972794624627727,
-                  "selected": 2,
                   "enableClose": false,
                   "children": [
                     {
@@ -162,7 +161,8 @@
                       "enableClose": false,
                       "icon": "material:code"
                     }
-                  ]
+                  ],
+                  "active": true
                 },
                 {
                   "type": "tabset",
@@ -231,16 +231,15 @@
                 {
                   "type": "tab",
                   "id": "#a9dd9c5f-de32-4a7a-98af-2c437a0b24fa",
-                  "name": "Shift_setting_page",
+                  "name": "Main_page",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[rkui.eez-project]:/userPages/1",
+                    "objectPath": "[rkui.eez-project]:/userPages/0",
                     "permanent": false
                   },
                   "icon": "svg:page"
                 }
-              ],
-              "active": true
+              ]
             },
             {
               "type": "row",
@@ -1417,6 +1416,26 @@
       }
     },
     "[rkui.eez-project]:/actions/11[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": 0,
+          "y": 0
+        },
+        "scale": 1
+      }
+    },
+    "[rkui.eez-project]:/actions/5[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": 0,
+          "y": 0
+        },
+        "scale": 1
+      }
+    },
+    "[rkui.eez-project]:/actions/4[flow-state]": {
       "selection": {},
       "transform": {
         "translate": {
