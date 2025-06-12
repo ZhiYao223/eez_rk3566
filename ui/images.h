@@ -9,8 +9,8 @@ extern "C" {
 
 extern const lv_img_dsc_t img_home;
 extern const lv_img_dsc_t img_setting7;
-extern const lv_img_dsc_t img_backgraound1;
-extern const lv_img_dsc_t img_backgraound;
+extern const lv_img_dsc_t img_background1;
+extern const lv_img_dsc_t img_background;
 extern const lv_img_dsc_t img_net;
 extern const lv_img_dsc_t img_calendar_symbol;
 extern const lv_img_dsc_t img_warning_background;

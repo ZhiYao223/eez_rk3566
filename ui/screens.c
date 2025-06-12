@@ -820,7 +820,7 @@ void create_screen_main_page() {
             objects.main1 = obj;
             lv_obj_set_pos(obj, 0, 0);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-            lv_image_set_src(obj, &img_backgraound);
+            lv_image_set_src(obj, &img_background);
             lv_obj_add_flag(obj, LV_OBJ_FLAG_CLICKABLE);
         }
         {
@@ -1667,7 +1667,7 @@ void create_screen_sample_setting_page() {
             objects.obj5 = obj;
             lv_obj_set_pos(obj, 0, 0);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-            lv_image_set_src(obj, &img_backgraound1);
+            lv_image_set_src(obj, &img_background1);
             lv_obj_add_event_cb(obj, event_handler_cb_sample_setting_page_obj5, LV_EVENT_ALL, flowState);
             lv_obj_add_flag(obj, LV_OBJ_FLAG_CLICKABLE);
             lv_obj_add_state(obj, LV_STATE_PRESSED);
@@ -2098,7 +2098,7 @@ void create_screen_communicate_setting_page() {
             objects.obj12 = obj;
             lv_obj_set_pos(obj, 0, 0);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-            lv_image_set_src(obj, &img_backgraound1);
+            lv_image_set_src(obj, &img_background1);
             lv_obj_add_event_cb(obj, event_handler_cb_communicate_setting_page_obj12, LV_EVENT_ALL, flowState);
             lv_obj_add_flag(obj, LV_OBJ_FLAG_CLICKABLE);
             lv_obj_add_state(obj, LV_STATE_PRESSED);
@@ -2391,7 +2391,7 @@ void create_screen_motor_test_setting_page() {
             objects.obj18 = obj;
             lv_obj_set_pos(obj, 0, 0);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-            lv_image_set_src(obj, &img_backgraound1);
+            lv_image_set_src(obj, &img_background1);
             lv_obj_add_event_cb(obj, event_handler_cb_motor_test_setting_page_obj18, LV_EVENT_ALL, flowState);
             lv_obj_add_flag(obj, LV_OBJ_FLAG_CLICKABLE);
             lv_obj_add_state(obj, LV_STATE_PRESSED);
@@ -2717,7 +2717,7 @@ void create_screen_warning_page() {
             lv_obj_t *obj = lv_image_create(parent_obj);
             lv_obj_set_pos(obj, 0, 0);
             lv_obj_set_size(obj, 1024, 768);
-            lv_image_set_src(obj, &img_backgraound1);
+            lv_image_set_src(obj, &img_background1);
             lv_obj_add_flag(obj, LV_OBJ_FLAG_CLICKABLE);
         }
         {

@@ -3,8 +3,8 @@
 const ext_img_desc_t images[12] = {
     { "home", &img_home },
     { "setting7", &img_setting7 },
-    { "backgraound1", &img_backgraound1 },
-    { "backgraound", &img_backgraound },
+    { "background1", &img_background1 },
+    { "background", &img_background },
     { "net", &img_net },
     { "calendar_symbol", &img_calendar_symbol },
     { "warning_background", &img_warning_background },
