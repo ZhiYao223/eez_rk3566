@@ -1,8 +1,8 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[rkui.eez-project]:/userPages/1",
-    "selectedActionObject": "[rkui.eez-project]:/actions/0",
-    "selectedGlobalVariableObject": "[rkui.eez-project]:/variables/globalVariables/0",
+    "selectedUserPageObject": "[rkui.eez-project]:/userPages/4",
+    "selectedActionObject": "[rkui.eez-project]:/actions/2",
+    "selectedGlobalVariableObject": "[rkui.eez-project]:/variables/globalVariables/-1",
     "subnavigationSelectedItems": {
       "variables-tab/sub-navigation/selected-item": "Global"
     }
@@ -135,7 +135,6 @@
                   "type": "tabset",
                   "id": "#34e12789-ff57-48a6-8529-c41e95c7dba6",
                   "weight": 0.9972794624627727,
-                  "selected": 2,
                   "enableClose": false,
                   "children": [
                     {
@@ -202,16 +201,17 @@
               "type": "tabset",
               "id": "EDITORS",
               "weight": 49.07057870664081,
+              "selected": 2,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
                 {
                   "type": "tab",
                   "id": "#14cbb3f0-8909-4daa-b6f4-cd6951bdf78c",
-                  "name": "save_setting_func",
+                  "name": "btn_sample_motor_cw",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[rkui.eez-project]:/actions/0",
+                    "objectPath": "[rkui.eez-project]:/actions/2",
                     "permanent": false
                   },
                   "icon": "material:code"
@@ -231,10 +231,10 @@
                 {
                   "type": "tab",
                   "id": "#a9dd9c5f-de32-4a7a-98af-2c437a0b24fa",
-                  "name": "Shift_setting_page",
+                  "name": "Motor_Test_setting_page",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[rkui.eez-project]:/userPages/1",
+                    "objectPath": "[rkui.eez-project]:/userPages/4",
                     "permanent": false
                   },
                   "icon": "svg:page"
@@ -1256,7 +1256,11 @@
       "selection": {
         "0": {
           "3": {},
-          "4": {},
+          "4": {
+            "1": {
+              "$selected": true
+            }
+          },
           "5": {
             "10": {}
           }
@@ -1282,7 +1286,12 @@
           "5": {
             "3": {}
           },
-          "6": {},
+          "6": {
+            "4": {
+              "$selected": true
+            },
+            "5": {}
+          },
           "7": {
             "0": {}
           }
@@ -1291,7 +1300,7 @@
       "transform": {
         "translate": {
           "x": -362.4000244140625,
-          "y": -191.39114730834956
+          "y": -291.39114730834956
         },
         "scale": 0.5
       },
@@ -1309,12 +1318,12 @@
             "1": {}
           },
           "4": {
-            "3": {},
+            "3": {
+              "$selected": true
+            },
             "4": {}
           },
-          "6": {
-            "$selected": true
-          }
+          "6": {}
         }
       },
       "transform": {
@@ -1417,6 +1426,26 @@
       }
     },
     "[rkui.eez-project]:/actions/11[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": 0,
+          "y": 0
+        },
+        "scale": 1
+      }
+    },
+    "[rkui.eez-project]:/actions/5[flow-state]": {
+      "selection": {},
+      "transform": {
+        "translate": {
+          "x": 0,
+          "y": 0
+        },
+        "scale": 1
+      }
+    },
+    "[rkui.eez-project]:/actions/4[flow-state]": {
       "selection": {},
       "transform": {
         "translate": {

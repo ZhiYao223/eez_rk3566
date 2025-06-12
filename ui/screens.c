@@ -1082,7 +1082,7 @@ void create_screen_main_page() {
             // main_label
             lv_obj_t *obj = lv_label_create(parent_obj);
             objects.main_label = obj;
-            lv_obj_set_pos(obj, 303, 441);
+            lv_obj_set_pos(obj, 280, 450);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
             lv_obj_set_style_text_font(obj, &lv_font_montserrat_38, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_label_set_text(obj, "Main_label");
@@ -2767,7 +2767,7 @@ void create_screen_warning_page() {
                 lv_obj_t *parent_obj = obj;
                 {
                     lv_obj_t *obj = lv_image_create(parent_obj);
-                    lv_obj_set_pos(obj, -17, 1);
+                    lv_obj_set_pos(obj, -14, 5);
                     lv_obj_set_size(obj, 534, 187);
                     lv_image_set_src(obj, &img_warning_background);
                 }
