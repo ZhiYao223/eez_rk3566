@@ -2766,7 +2766,7 @@ void create_screen_warning_page() {
                 lv_obj_t *parent_obj = obj;
                 {
                     lv_obj_t *obj = lv_image_create(parent_obj);
-                    lv_obj_set_pos(obj, -14, 5);
+                    lv_obj_set_pos(obj, -3, 3);
                     lv_obj_set_size(obj, 534, 187);
                     lv_image_set_src(obj, &img_warning_background);
                 }
