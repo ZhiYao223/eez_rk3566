@@ -2556,7 +2556,6 @@ void create_screen_motor_test_setting_page() {
                     lv_obj_set_pos(obj, 204, 29);
                     lv_obj_set_size(obj, 100, 50);
                     lv_obj_add_event_cb(obj, event_handler_cb_motor_test_setting_page_btn_sample_motor_cw, LV_EVENT_ALL, flowState);
-                    lv_obj_add_state(obj, LV_STATE_PRESSED);
                     {
                         lv_obj_t *parent_obj = obj;
                         {
