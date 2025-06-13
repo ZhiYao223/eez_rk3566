@@ -1,8 +1,26 @@
 {
-    "sample_interval_minutes":100,
-    "cw_rotate_seconds":35,
-    "ccw_rotate_seconds":25,
-    "input_motor_stop":12,
-    "input_cw_manual_time":10,
-    "input_ccw_manual_time":30
+    "shift_setting": {
+        "start_time_1": 6,
+        "stop_time_1": 4,
+        "sample_times_1": 0,
+        "start_time_2": 2,
+        "stop_time_2": 0,
+        "sample_times_2": 0,
+        "start_time_3": 6,
+        "stop_time_3": 0,
+        "sample_times_3": 0
+    },
+    "sample_setting": {
+        "motor_cw_seconds": 411,
+        "motor_ccw_seconds": 555,
+        "motor_stop_seconds": 2404
+    },
+    "comm_setting": {
+        "Address": "192.168.137.230",
+        "Gateway": "255.255.255.255",
+        "DNS": "8.8.8.8"
+    },
+    "test_setting": {
+        "rotate_motor_speed": 6000
+    }
 }
